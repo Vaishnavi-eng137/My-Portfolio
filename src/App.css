@@ -1,29 +1,149 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  overflow: hidden;
+  background-image: linear-gradient(
+    rgb(144, 95, 201),
+    rgb(226, 175, 175),
+    rgb(132, 167, 167)
+  );
+  min-height:100vh;
+}
+.navbar {
+  display: flex;
+  /* padding-right: 2rem; */
+  /* align-items: flex-end; */
+  /* justify-content:right; */
+}
+
+.btn {
+  margin-left: 6px;
+  margin-right:10px;
+}
+.human-heart {
+  margin: 5em;
+  animation: .8s infinite beatHeart;
+}
+@keyframes beatHeart {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.contact{
+  padding:2rem;
+  color:purple;
+  background-color:rgb(202, 192, 209);
+  border-radius:5%;
+}
+.container{
+  background-color:#6140B4 ;
+  justify-content: center;
+  border-radius:5%;
+  padding:4px;
+  height:260px;
+  width:340px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.Navbtn{
+  color: "#2C3E50"; 
+  background-color: thistle;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.Selectedbtn{
+  background-color: rgb(219, 61, 153);
+}
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 40px;
+  
+  /* width:100%; */
+  /* color: white; */
 }
 
+.App-footer {
+  background-color: black;
+  min-height: auto;
+}
+.photo {
+  cursor: pointer;
+  margin: 6px;
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+}
+.photo1{
+  cursor: pointer;
+  height:60px;
+  width: 60px;
+  margin-top:10px;
+
+}
+.Images-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.icon {
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 4px;
+  height: 40px;
+  width: 80px;
+  object-fit: cover;
+}
+.Design {
+  margin-bottom:10px;
+  border-radius: 50%;
+  height: 240px;
+  width: 240px;
+  object-fit: cover;
+  /* object-fit:scale-down; */
+  object-position:top;
+  /* padding:10px ; */
+  /* overflow: hidden; */
+}
+
+.Hello {
+  text-shadow: 2px 2px 5px purple;
+  /* margin-top:2px; */
+}
+h2 {
+  font-family: cursive;
+  color: purple;
+  text-shadow: 2px 2px 4px rgb(35, 92, 92);
+}
+h6 {
+  font-family: cursive;
+}
+h5 {
+  text-shadow: 2px 2px 4px rgb(238, 8, 0);
+  /* color:peru; */
+}
 .App-link {
   color: #61dafb;
 }
