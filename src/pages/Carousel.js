@@ -43,10 +43,7 @@ function Mygallery() {
   };
 
   return (
-    <div
-      className="App-header"
-      style={{ display: "flex", justifyContent: "center" }}
-    >
+    <div className="App-header">
       <div className="view" style={{ width: "800px" }}>
         <div
           id="carouselExampleControls"
@@ -67,38 +64,39 @@ function Mygallery() {
                 style={{ backgroundColor: "#BAACDF" }}
               ></span>
             </a>
-            <a
-              className="carousel-control-next"
-              href="#carouselExampleControls"
-              role="button"
-              data-slide="next"
-              onClick={Increment}
-            >
-              <span
-                className="carousel-control-next-icon "
-                aria-hidden="true"
-                style={{ backgroundColor: "#BAACDF" }}
-              ></span>
-            </a>
+            <div className="carousel-inner">
+              <a
+                className="carousel-control-next"
+                href="#carouselExampleControls"
+                role="button"
+                data-slide="next"
+                onClick={Increment}
+              >
+                <span
+                  className="carousel-control-next-icon "
+                  aria-hidden="true"
+                  style={{ backgroundColor: "#BAACDF" }}
+                ></span>
+              </a>
 
-            {list.map((element, index) => {
-              return (
-                <div
-                  key={index}
-                  className={`carousel-item ${
-                    activeimage === index ? "active" : ""
-                  }`}
-                >
-                  <img
-                    style={{objectFit:'contain', height:'500px'}}
-                    className="d-block w-100 "
-                    src={`https://${element}`}
-                    alt="slides"
-                    
-                  />
-                </div>
-              );
-            })}
+              {list.map((element, index) => {
+                return (
+                  <div
+                    key={index}
+                    className={`carousel-item ${
+                      activeimage === index ? "active" : ""
+                    }`}
+                  >
+                    <img
+                      style={{ objectFit: "contain", height: "500px" }}
+                      className="d-block w-100 "
+                      src={`https://${element}`}
+                      alt="slides"
+                    />
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>

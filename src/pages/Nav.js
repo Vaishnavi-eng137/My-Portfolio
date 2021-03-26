@@ -7,7 +7,7 @@ function Nav() {
   const location = useLocation()
   return (
 
-    <nav className="navbar" style={{ backgroundColor: "#D2B4DE " }}>
+    <nav className="navbar" style={{ backgroundColor: "#D2B4D" }}>
       <div
         style={{
           display: "flex",

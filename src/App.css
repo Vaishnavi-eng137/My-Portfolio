@@ -1,12 +1,14 @@
 .App {
   /* text-align: center; */
-  overflow: hidden;
+  /* overflow: hidden; */
   background-image: linear-gradient(
     rgb(144, 95, 201),
     rgb(226, 175, 175),
     rgb(132, 167, 167)
   );
+  /* min-width: 100vh; */
   min-height:100vh;
+  /* height: min-content; */
 }
 .navbar {
   display: flex;
@@ -51,8 +53,12 @@
   justify-content: center;
   border-radius:5%;
   padding:4px;
-  height:260px;
-  width:340px;
+  /* max-width: min-content;
+  max-width: min-content; */
+  height:280px;
+  width:300px;
+  /* /* min-width: fit-content; */
+ min-height: fit-content; 
 }
 
 .App-logo {
