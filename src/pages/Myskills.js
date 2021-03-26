@@ -12,24 +12,21 @@ function Myskills() {
       <div
         className="box"
         style={{
+          marginTop:"40px",
           display: "flex",
-          width: "100%",
           flexWrap: "wrap",
-          // justifyContent: "space-between",
+          justifyContent:"center"
         }}
       >
-        <div style={{ display: "flex",justifyContent:"flex-start"}}>
-          <img src={Skillimage}></img>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            flex: 1,
-            flexWrap:"wrap",
-            padding: "60px",
-          }}
-        >
-          <div className="box"style={{backgroundColor:"lavenderblush",borderRadius:"5%",padding:"10px"}}>
+          <div
+            className="box"
+            style={{
+              backgroundColor: "lavenderblush",
+              borderRadius: "5%",
+              padding: "20px",
+              margin:"20px"
+            }}
+          >
             <p style={{ fontFamily: "cursive", textDecoration: "underline" }}>
               Technologies
             </p>
@@ -65,12 +62,15 @@ function Myskills() {
           <div
             style={{
               display: "flex",
-              flexWrap:"wrap",
-              marginTop:"10px",
+              flexWrap: "wrap",
+              marginTop: "10px",
               padding: "20px",
             }}
           >
-            <div className="box"style={{backgroundColor:"ThreeDFace",borderRadius:"5%"}}>
+            <div
+              className="box"
+              style={{ backgroundColor: "ThreeDFace", borderRadius: "5%" }}
+            >
               <h4
                 style={{ fontFamily: "cursive", textDecoration: "underline" }}
               >
@@ -103,7 +103,7 @@ function Myskills() {
           </div>
         </div>
       </div>
-    </div>
+    // </div>
   );
 }
 

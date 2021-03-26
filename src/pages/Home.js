@@ -21,7 +21,7 @@ function Home() {
       </header>
       <a
         className="btn btn-outline-secondary  btn-lg m-4 Navbtn human-heart"
-        href="https://novoresume.com/file/pdf/resume/get/1616704695030b613fa1076db11ebbeb04d34a32fa0c1deppyt2ns1m3cdf6fnq4kij65tubiqhznhbxuqqh6opvzvkw6mc61sa25q94sqoxd45jb54pqazxclp9tjvzeia1olliqjig7dyq8ez9yuhb5957Acll2mp5aq8dikqr56td0wms2pnh101r7ho6r6mspe5z3u3ihikbhvfnyAcj8s8ly9f3qjt7w514jnlAcfz2d"
+        href="https://drive.google.com/file/d/1AGSqW8F0s205tp5l7Oo8gLF-HmghAd5y/view?usp=sharing "
         download
       >
         Download My Resume
