@@ -21,7 +21,7 @@ function Home() {
       </header>
       <a
         className="btn btn-outline-secondary  btn-lg m-4 Navbtn human-heart"
-        href="https://drive.google.com/file/d/1AGSqW8F0s205tp5l7Oo8gLF-HmghAd5y/view?usp=sharing "
+        href="https://drive.google.com/file/d/19PEmm0vPh7YlAk7KMWCrFDvalVHbFMV4/view?usp=sharing"
         download
       >
         Download My Resume
